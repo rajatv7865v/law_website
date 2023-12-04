@@ -1,10 +1,10 @@
 import React from "react";
 import Image from "next/image";
-import Card1 from "@/assets/images/card-1.jpg";
-import Card2 from "@/assets/images/card-2.jpg";
-import Card3 from "@/assets/images/card-3.png";
-import Card4 from "@/assets/images/card-4.png";
-import Card5 from "@/assets/images/card-5.png";
+import Card1 from "@/assets/images/Marriage-scaled.jpg";
+import Card2 from "@/assets/images/MSME-scaled.jpg";
+import Card3 from "@/assets/images/accounting.png";
+import Card4 from "@/assets/images/Trademark.png";
+import Card5 from "@/assets/images/GSTconsultants.jpeg";
 import Link from "next/link";
 import { useRouter } from "next/router";
 
@@ -29,7 +29,7 @@ const index = () => {
           <p className="text-center py-2 px-5">
             Court Marriage Court marriage, also known as ci
           </p>
-          <Link href="" className="text-center mb-10 text-blue-700 underline">
+          <Link href="/services/marriage-registration" className="text-center mb-10 text-blue-700 underline">
             Read More
           </Link>
         </div>
@@ -39,7 +39,7 @@ const index = () => {
           <p className="text-center py-2 px-5">
             Proprietorship Partnership One Person Company L
           </p>
-          <Link href="" className="text-center mb-10 text-blue-700 underline">
+          <Link href="/services/msme" className="text-center mb-10 text-blue-700 underline">
             Read More
           </Link>
         </div>

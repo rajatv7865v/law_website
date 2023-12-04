@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import GST from "@/assets/images/aboutUs.jpeg";
+import GST from "@/assets/images/GSTconsultants.jpeg";
 import { useRouter } from "next/router";
 
 

@@ -1,7 +1,8 @@
+import Image from "next/image";
 import Link from "next/link";
 import React, { useState } from "react";
 import { IoMdClose, IoMdMenu } from "react-icons/io";
-
+import Logo from '@/assets/images/logo.jpg'
 const BottomHeader = () => {
   const [navBar, setNavBar] = useState<Boolean>(false);
 
@@ -10,8 +11,8 @@ const BottomHeader = () => {
       <nav className="p-4 g-whiten shadow md:flex md:items-center md:justify-between">
         <div className="flex justify-between items-center">
           <span className="text-[28px] font-[700] text-[#4154F1]">
-            {/* <Image className="h-10 mx-4 inline " width={90} src={Logo} alt="logo" /> */}
-            Logo
+            <Image className="h-10 mx-4 inline " width={120} src={Logo} alt="logo" />
+            
           </span>
           <span
             className="text-3xl cursor-pointer md:hidden  block mx-2 "

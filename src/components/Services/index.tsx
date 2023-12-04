@@ -23,7 +23,7 @@ const index = () => {
             <p className="text-center py-2 px-5">
               Court Marriage Court marriage, also known as ci
             </p>
-            <Link href="" className="text-center mb-10 text-blue-700 underline">
+            <Link href="/service/marriage-registeration" className="text-center mb-10 text-blue-700 underline">
               Read More
             </Link>
           </div>
@@ -33,7 +33,7 @@ const index = () => {
             <p className="text-center py-2 px-5">
               Proprietorship Partnership One Person Company L
             </p>
-            <Link href="" className="text-center mb-10 text-blue-700 underline">
+            <Link href="/services/msme/" className="text-center mb-10 text-blue-700 underline">
               Read More
             </Link>
           </div>
