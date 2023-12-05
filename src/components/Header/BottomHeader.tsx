@@ -8,7 +8,7 @@ const BottomHeader = () => {
 
   return (
     <main>
-      <nav className="p-4 g-whiten shadow md:flex md:items-center md:justify-between">
+      <nav className="p-4 g-whiten shadow md:flex md:items-center md:justify-between ">
         <div className="flex justify-between items-center">
           <span className="text-[28px] font-[700] text-[#4154F1]">
             <Image className="h-10 mx-4 inline " width={120} src={Logo} alt="logo" />

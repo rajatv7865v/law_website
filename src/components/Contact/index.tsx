@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import CONTACTLOGO from "@/assets/images/contact_logo.jpg";
+import CONTACTLOGO from "@/assets/images/contactUs_logo.jpg";
 
 const index = () => {
   return (
